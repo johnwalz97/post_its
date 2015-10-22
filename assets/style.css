@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+* { box-sizing:border-box; }
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+}
+.add {
+    position: relative;
+    display: inline;
+    float: left;
+}
+.add:hover, .delete:hover, .form_hide:hover {
+    cursor: pointer;
+}
+.panel-heading {
+    text-align: center;
+}
+h4 {
+    display: inline;
+    position: relative;
+    left: -10px;
+}
+.delete {
+    position: relative;
+    float: right;
+    display: inline;
+}
+.form_hide {
+    position: relative;
+    float: right;
+    display: inline;
+}
+.note  { 
+    float: left;
+	padding:15px 15px 20px;
+    width: 249px;
+    height: 200px;   
+	font:20px 'Gloria Hallelujah', cursive; 
+	line-height:1.5;
+	border:0;
+	background: -webkit-linear-gradient(#F9EFAF, #F7E98D);
+	background: -moz-linear-gradient(#F9EFAF, #F7E98D);
+	background: -o-linear-gradient(#F9EFAF, #F7E98D);
+	background: -ms-linear-gradient(#F9EFAF, #F7E98D);
+	background: linear-gradient(#F9EFAF, #F7E98D);
+	box-shadow:0 4px 6px rgba(0,0,0,0.1);
+	overflow:hidden;
+	transition:box-shadow 0.5s ease;
+	font-smoothing:subpixel-antialiased;
+	max-width:249px;
+	max-height:200px;
+}
+.panel-input {
+    position: relative;
+    left: -10px;
+    margin: 0;
+    padding: 0;
+    background: #E9F44E;
+    border: none;
+    display: inline;
+    text-align: center;
+}
